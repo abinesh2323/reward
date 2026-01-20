@@ -1,0 +1,29 @@
+version: "v1.0.0"
+
+reward_types:
+  XP:
+    weight: 0.7
+  CHECKOUT:
+    weight: 0.2
+  GOLD:
+    weight: 0.1
+
+xp:
+  xp_per_rupee: 0.1
+  max_xp_per_txn: 500
+  persona_multipliers:
+    NEW: 1.0
+    RETURNING: 1.5
+    POWER: 2.0
+
+cac:
+  daily_cap_per_persona:
+    NEW: 0
+    RETURNING: 1000
+    POWER: 5000
+  fallback_to_xp: true
+
+features:
+  prefer_xp_mode: false
+  cooldown_enabled: false
+  cooldown_hours: 24

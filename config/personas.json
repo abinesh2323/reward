@@ -1,0 +1,17 @@
+{
+  "user_789": {
+    "persona": "RETURNING",
+    "lifetime_purchases": 3,
+    "last_reward_ts": 1705689600
+  },
+  "user_456": {
+    "persona": "POWER",
+    "lifetime_purchases": 15,
+    "last_reward_ts": 1705689600
+  },
+  "user_001": {
+    "persona": "NEW",
+    "lifetime_purchases": 0,
+    "last_reward_ts": null
+  }
+}

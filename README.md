@@ -1,0 +1,10 @@
+step 1 - 1st time only 
+go to directory terminal
+$python -m venv venv
+$.venv\Scripts\activate
+$pip install -r requirements.txt
+
+step 2
+$.venv\Scripts\python -m uvicorn src.main:app --port 8000
+server is live at localhost
+
